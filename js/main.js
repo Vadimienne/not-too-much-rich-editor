@@ -9,3 +9,7 @@
 //    },
 //
 // });
+
+function insert(text) {
+  document.execCommand('insertText', false, text);
+}
